@@ -1,9 +1,5 @@
-#!/usr/bin/env node
-
-const { greet } = require("./src/utils");
-
-console.log(greet("frames"));
+const { Parser } = require("./src/parser");
 
 module.exports = {
-  greet,
+  Parser,
 };

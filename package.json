@@ -1,6 +1,6 @@
 {
-  "name": "javascript",
-  "description": "NPM package template.",
+  "name": "@pr4j3sh/env-parser",
+  "description": "ENV parser to JSON",
   "version": "1.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -21,6 +21,11 @@
     "dist"
   ],
   "keywords": [
+    "parser",
+    "env",
+    "json",
+    "env-parser",
+    "env-to-json",
     "npm",
     "javascript",
     "commonjs",
@@ -28,13 +33,13 @@
   ],
   "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.github.io/pr4j3sh/)",
   "license": "MIT",
-  "homepage": "https://github.com/pr4j3sh/javascript#readme",
+  "homepage": "https://github.com/pr4j3sh/env-parser#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pr4j3sh/javascript.git"
+    "url": "git+https://github.com/pr4j3sh/env-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/pr4j3sh/javascript/issues"
+    "url": "https://github.com/pr4j3sh/env-parser/issues"
   },
   "devDependencies": {
     "esbuild": "^0.24.0",
