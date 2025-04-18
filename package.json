@@ -1,15 +1,12 @@
 {
   "name": "@pr4j3sh/env-parser",
   "description": "ENV parser to JSON",
-  "version": "1.0.1",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "version": "1.0.2",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "exports": {
-    "require": "dist/index.cjs",
-    "import": "dist/index.mjs"
-  },
-  "bin": {
-    "javascript": "dist/index.cjs"
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
