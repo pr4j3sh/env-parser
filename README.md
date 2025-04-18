@@ -12,21 +12,11 @@ npm i @pr4j3sh/env-parser
 
 ## Usage
 
-- Import or Require `@pr4j3sh/env-parser` in your file.
+- Require `@pr4j3sh/env-parser` in your file.
 
 ```js
-// ESM
-import Parser from "@pr4j3sh/env-parser";
-```
-
-```js
-// CJS
 const Parser = require("@pr4j3sh/env-parser");
-```
 
-- Create object and parse.
-
-```js
 const p = new Parser();
 
 let json = p

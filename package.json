@@ -1,13 +1,8 @@
 {
   "name": "@pr4j3sh/env-parser",
   "description": "ENV parser to JSON",
-  "version": "1.0.3",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "exports": {
-    "require": "./dist/index.cjs",
-    "import": "./dist/index.mjs"
-  },
+  "version": "1.0.4",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "build": "node esbuild.config.js",
