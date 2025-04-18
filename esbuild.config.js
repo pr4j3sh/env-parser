@@ -25,6 +25,7 @@ try {
     minify: true,
     platform: "node",
     target: ["node14"],
+    external: ["node:fs"],
   });
   console.log("ESM build successful");
 } catch (err) {

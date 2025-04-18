@@ -1,7 +1,7 @@
 {
   "name": "@pr4j3sh/env-parser",
   "description": "ENV parser to JSON",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "exports": {
